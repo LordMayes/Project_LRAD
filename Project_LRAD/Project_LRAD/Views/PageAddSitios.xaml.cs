@@ -78,10 +78,7 @@ namespace Project_LRAD.Views
             {
                 txtLongitud.Text = camp[4].ToString();
             }
-            else if (!string.IsNullOrEmpty(camp[5]))
-            {
-                cmbPais.SelectedItem = camp[5].ToString();
-            }
+            
             else if (!string.IsNullOrEmpty(camp[6]))
             {
                 txtNota.Text = camp[6].ToString();
@@ -171,7 +168,7 @@ namespace Project_LRAD.Views
                 txtLatitud.Text = sitio.latitud.ToString();
                 txtLongitud.Text = sitio.longitud.ToString();
                 txtNota.Text = sitio.nota;
-                cmbPais.SelectedItem = sitio.pais;
+                
                 metodous = sitio.foto;
 
                 string base64Imagen = sitio.foto;
@@ -250,10 +247,7 @@ namespace Project_LRAD.Views
                 await DisplayAlert("ALERTA", "DEBES ESCRIBIR UNA NOTA", "OK");
                 txtNota.Focus();
             }
-            else if (cmbPais.SelectedItem == null)
-            {
-                await DisplayAlert("ALERTA", "DEBES SELECCIONAR UN PAIS", "OK");
-            }
+            
             else if (foto.Source == null)
             {
                 await DisplayAlert("ALERTA", "DEBES AGREGAR UNA FOTO", "OK");
@@ -282,7 +276,7 @@ namespace Project_LRAD.Views
                         Nomsitio = txtSitio.Text,
                         latitud = Convert.ToDecimal(txtLatitud.Text),
                         longitud = Convert.ToDecimal(txtLongitud.Text),
-                        pais = cmbPais.SelectedItem.ToString(),
+                       
                         nota = txtNota.Text,
                         foto = metodous
 
@@ -303,7 +297,7 @@ namespace Project_LRAD.Views
                         Nomsitio = txtSitio.Text,
                         latitud = Convert.ToDecimal(txtLatitud.Text),
                         longitud = Convert.ToDecimal(txtLongitud.Text),
-                        pais = cmbPais.SelectedItem.ToString(),
+                        
                         nota = txtNota.Text,
                       foto = metodous
 

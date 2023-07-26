@@ -6,7 +6,7 @@
 
         <StackLayout >
 
-            <StackLayout  BackgroundColor="AntiqueWhite">
+            <StackLayout  BackgroundColor="White">
                 <ListView x:Name="listSities" ItemSelected="listSities_ItemSelected">
 
                     <ListView.ItemTemplate>
@@ -65,7 +65,7 @@
             <Button x:Name="btnEliminarSitio"
                     Text="ELIMINAR"
                     Margin="10,10,10,10"
-                    BackgroundColor="Orange"
+                    BackgroundColor="DarkRed"
                     Clicked="btnEliminarSitio_Clicked"
                     />
 

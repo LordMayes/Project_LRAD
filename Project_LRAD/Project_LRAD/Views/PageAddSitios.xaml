@@ -20,7 +20,7 @@
 
                 <Button x:Name="btnFoto" Text="Tomar" Clicked="btnFoto_Clicked"
                     Margin="30,30,30,10"
-                    BackgroundColor="DarkOrange"/>
+                    BackgroundColor="Green"/>
 
                 <Label Text="SITIO VISITADO"
                    Margin="10,10,10,-5"
@@ -53,26 +53,9 @@
 
                 <Button x:Name="btnMapa" Text="MAPA" Clicked="btnMapa_Clicked"
                     Margin="30,30,30,10"
-                    BackgroundColor="DarkOrange"/>
+                    BackgroundColor="Green"/>
 
-                <Picker  x:Name="cmbPais"  
-                         Title="PAIS" 
-                         Margin="10,10,10,0" 
-                         BackgroundColor="AliceBlue">
-
-                    <Picker.Items>
-                        <x:String>HONDURAS (504)</x:String>
-                        <x:String>EL SALVADOR (503)</x:String>
-                        <x:String>GUATEMALA (502)</x:String>
-                        <x:String>NICARAGUA (505)</x:String>
-                        <x:String>COSTA RICA (506)</x:String>
-                        <x:String>PANAMÁ (507)</x:String>
-                        <x:String>BELICE (501)</x:String>
-                        <x:String>MÉXICO(52)</x:String>
-                        <x:String>CANADÁ (1)</x:String>
-                        <x:String>ESTADOS UNIDOS (1)</x:String>
-                    </Picker.Items>
-                </Picker>
+                
 
                 <Label Text="NOTA"
                    Margin="10,10,10,-5"

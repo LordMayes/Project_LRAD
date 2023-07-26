@@ -59,7 +59,7 @@ namespace Project_LRAD.Views
 
         private async void listContact_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            var resp = await DisplayAlert("¿PREGUNTA?", "¿DESEAS LLAMAR A ESTE CONTACTO?", "OK", "NO");
+          /*  var resp = await DisplayAlert("¿PREGUNTA?", "¿DESEAS LLAMAR A ESTE CONTACTO?", "OK", "NO");
 
             if (resp == true)
             {
@@ -85,7 +85,7 @@ namespace Project_LRAD.Views
                     }
                 }
             }
-
+            */
             
             //PageAddContact.cargarText(ContactosModel contactosmodel);
 

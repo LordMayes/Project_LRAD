@@ -5,7 +5,7 @@
     <ContentPage.Content>
 
         <StackLayout >
-            <StackLayout  BackgroundColor="AntiqueWhite">
+            <StackLayout  BackgroundColor="White">
                 <ListView x:Name="listContact" ItemSelected="listContact_ItemSelected" >
 
                     <ListView.ItemTemplate>
@@ -65,7 +65,7 @@
             <Button x:Name="btnEliminarC"
                     Text="ELIMINAR"
                     Margin="10,10,10,10"
-                    BackgroundColor="DarkOrange"
+                    BackgroundColor="DarkRed"
                     Clicked="btnEliminarC_Clicked"
                     />
 

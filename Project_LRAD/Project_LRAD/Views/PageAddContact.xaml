@@ -24,7 +24,7 @@
 
                 <Button x:Name="btnFoto" Text="Tomar" Clicked="btnFoto_Clicked" 
                     Margin="30,30,30,10"
-                    BackgroundColor="Orange"/>
+                    BackgroundColor="Green"/>
 
                 <Button x:Name="btnAgregarF" Text="agregarF" Clicked="btnAgregarF_Clicked"
                     Margin="30,30,30,10"

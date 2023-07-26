@@ -6,25 +6,32 @@
         <StackLayout>
 
             <Image x:Name="toa" Source=""
-                    WidthRequest="200" HeightRequest="200" 
+                    WidthRequest="180" HeightRequest="180" 
                    BackgroundColor="White" IsVisible="false"/>
 
             <Image x:Name="log_ucenm" Source="ucenm.png"
-                   WidthRequest="200" HeightRequest="200" 
+                   WidthRequest="180" HeightRequest="180" 
                    BackgroundColor="White"/>
             
-            <Button x:Name="btnAgenda" Text="Agenda" Clicked="btnAgenda_Clicked"
+            <Button x:Name="btnAgenda" Text="Contactos" Clicked="btnAgenda_Clicked"
                     Margin="10,30,10,10"
-                    BackgroundColor="DarkOrange"/>
-            <Button x:Name="btnSitios" Text="Sitios" Clicked="btnSitios_Clicked"
+                    BackgroundColor="Orange"/>
+            <Button x:Name="btnSitios" Text="Sitios Visitados" Clicked="btnSitios_Clicked"
                     Margin="10,30,10,10"
-                    BackgroundColor="DarkOrange"/>
-            <Button x:Name="btnSalvarContactos" Text="Salvar Contacto" Clicked="btnSalvarContactos_Clicked" 
+                    BackgroundColor="Orange"/>
+            <Button x:Name="btnSalvarContactos" Text="Agregar Contacto" TextColor="White" Clicked="btnSalvarContactos_Clicked" 
                     Margin="10,30,10,10"
-                    BackgroundColor="CornflowerBlue"/>
-            <Button x:Name="btnSalvarSitios" Text="Salvar Sitio" Clicked="btnSalvarSitios_Clicked"
+                    BackgroundColor="ForestGreen"/>
+            <Button x:Name="btnSalvarSitios" Text="Agregar Sitio" TextColor="White" Clicked="btnSalvarSitios_Clicked"
                     Margin="10,30,10,10"
-                    BackgroundColor="CornflowerBlue"/>
+                    BackgroundColor="ForestGreen"/>
+            <Label Text="INTEGRANTES" TextColor="Black" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Ruth Liliana Gomez Medina" TextColor="Black"></Label>
+            <Label Text="Maby Esther Santos Villanueva" TextColor="Black"></Label>
+            <Label Text="Ingris Yarely Portillo Mejía" TextColor="Black"></Label>
+            <Label Text="Wilberth Mayes Reyes" TextColor="Black"></Label>
+            <Label Text="Suany Marisol Ayala Trejo" TextColor="Black"></Label>
+            <Label Text="Carolina Gomez Cardenas" TextColor="Black"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
